@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.content-wrapper{
+    background: #1B2026;
+}
+
+/* Hero Section */
+
+.hero-card{
+    padding: 0.2em;
+    background: #232a34;
+    border-radius: 10px;
+}
+
+.card-button{
+    font-size: 12px;
+    padding: 0.5em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #F8C237;
+    font-weight: 800;
+}
+
+/* Category Item */
+
+.category-item{
+    background: #232a34;
+    padding: 0;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}

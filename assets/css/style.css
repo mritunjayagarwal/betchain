@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1E1E1E;
+}
+
+section{
+	padding: 20px 0;
+}
+
+.container{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* Gradient Section */
+
+.gradient-box{
+	background: linear-gradient(-45deg, #005ea1, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    border-radius: 20px;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Payments section */
+
+.payments{
+	background: #15191c;
+	border-radius: 20px;
+}
+
+/* Betting Section */
+
+.betting{
+	background: #15191c;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+/* FAQ */
+
+.faq{
+	background: #15191c;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+.faq-item{
+	background: #1C1E22;
+	color: #fff;
+	padding: 1em;
+	margin-bottom: 15px;
+	border-radius: 20px;
+}
+
+.faq-heading{
+	font-size:x-large;
+}
+
+/* latest section */
+
+.latest{
+	background: #15191c;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+.latest-item{
+	background: #1C1E22;
+	color: #fff;
+	padding: 1em;
+	border-radius: 20px;
+}
