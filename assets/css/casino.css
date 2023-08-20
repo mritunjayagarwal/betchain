@@ -45,3 +45,12 @@ body{
     padding-bottom: 0px;
     border-radius: 10px;
 }
+
+/* User List Item */
+
+.user-list-item{
+    border-radius: 50px;
+    background: #1B2026;
+    padding: 0.2em;
+    margin-bottom: 10px;
+}
