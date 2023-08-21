@@ -19,6 +19,15 @@ body{
     background: #1B2026;
 }
 
+.nav-link:hover{
+    color: #F8C237 !important;
+}
+
+.active{
+    color: #F8C237 !important;
+    font-weight: 800;
+}
+
 /* Hero Section */
 
 .hero-card{
