@@ -10,6 +10,10 @@ body{
     overflow-y: auto;
 }
 
+.logo-middle{
+    display: none !important;
+}
+
 .container{
     max-width: 95%;
     margin: 0 auto;
@@ -76,3 +80,54 @@ body{
     margin-top: -2px;
     margin-bottom: 5px;
 }
+
+/* footer */
+
+footer {
+    background: #1B2026;
+}
+
+.footer-wrapper {
+    padding: 50px 0;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.83);
+    font-size: 14px;
+}
+
+.footer-list-head {
+    color: #F8C237;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list li {
+    margin: 20px 0;
+}
+
+.footer-list li a{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-list li a:hover{
+    color: #F8C237;
+}
+
+.footer-bottom {
+    background: #232a34;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+@media only screen and (max-width: 900px) {
+   .logo-middle{
+    display: block !important;
+   }
+  }

@@ -8,6 +8,10 @@ body{
     background: #1E1E1E;
 }
 
+.content-wrapper{
+	background: #1E1E1E;
+}
+
 section{
 	padding: 20px 0;
 }
