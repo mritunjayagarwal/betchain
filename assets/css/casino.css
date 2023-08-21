@@ -51,6 +51,19 @@ body{
 .user-list-item{
     border-radius: 50px;
     background: #1B2026;
-    padding: 0.2em;
+    padding-top: 0.5em !important;
+    padding-bottom: -20px !important;
+    padding-left: 1em;
+    padding-right: 1em;
     margin-bottom: 10px;
+}
+
+.number{
+    background: #232a34;
+    border-radius: 50%;
+    padding: 0.6em 1em 0 1em;
+    font-size: 13px;
+    margin-left: -10px;
+    margin-top: -2px;
+    margin-bottom: 5px;
 }
