@@ -184,7 +184,7 @@ footer {
 	}
 
 	.control-sidebar{
-		display: none !important;
+		display: block !important;
 	}
    }
  
