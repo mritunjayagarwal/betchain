@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BetChain</title>
-      <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-<!-- Theme style -->
-<link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -21,30 +23,30 @@
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-dark navbar-light"
             style="background: #1c2026; border: unset; margin-left: 0;">
-            <div class = "container">
+            <div class="container">
                 <!-- Left navbar links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        <i class="fas fa-th-large"></i>
-                    </a>
-                </li>
-                <li>
-                    <img src="./assets/img/logo.png" style = "height: 30px;" alt="">
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Sports</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="./casino.html" class="nav-link active">Casino</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">BSGG</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                            <i class="fas fa-th-large"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/logo.png" style="height: 30px;" alt="">
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="index3.html" class="nav-link">Sports</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="./casino.html" class="nav-link active">Casino</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="#" class="nav-link">BSGG</a>
+                    </li>
+                </ul>
 
-            <!-- Right navbar links -->
-            <!-- <ul class="navbar-nav ml-auto">
+                <!-- Right navbar links -->
+                <!-- <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
                         <i class="fas fa-th-large"></i>
@@ -55,14 +57,21 @@
         </nav>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper" style = "margin-left: 0;">
+        <div class="content-wrapper" style="margin-left: 0;">
             <section>
                 <div class="container">
                     <img src="./assets/img/Home/hero-img.png" class="w-100" alt="">
                     <div>
-                        <div class="row">
-                            <div class="col-lg-4">
+                        <div class="carosel owl-carousel small_space" style="display: flex; justify-content: center;">
+                            <div class="item">
+                                <img src="./assets/img/Home/1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/Home/3.png" class="img-fluid" alt="">
+                            </div>
 
+                            <div class="item">
+                                <img src="./assets/img/Home/4.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -71,7 +80,7 @@
             <section>
                 <div class="container d-flex align-items-center justify-content-center">
                     <div class="text-center text-white gradient-box w-100 pt-2">
-                        <h1 class = "betting-head">BETCHAIN</h1>
+                        <h1 class="betting-head">BETCHAIN</h1>
                         <p>Unparalleled Gaming and Betting in the Blockchain Era</p>
                     </div>
                 </div>
@@ -80,10 +89,22 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <img src="./assets/img/Home/sports.png" class="img-fluid" alt="">
+                            <div class = "card-item" style = "position: relative; height: 300px; border-radius: 20px;background: url(./assets/img/Home/home-2.png) no-repeat; background-size: cover; background-position: right;">
+                                <div style = "border-radius: 20px; padding: 2em">
+                                    <h1 style = "font-size: 25px; color: #fff; font-weight: 800;">Betting</h1>
+                                    <p class = "text-white" style = "width: 60%">Enhance your sports betting journey by placing wagers on your favorite sports using cryptocurrency through our robust platform.</p>
+                                    <button class = "btn yellow-btn" style = "position: absolute; bottom: 15px; right: 20px; left: 20px;">Play Now</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6">
-                            <img src="./assets/img/Home/sports.png" class="img-fluid" alt="">
+                            <div class = "card-item w-100" style = "position: relative;height: 300px; border-radius: 20px;background: url(./assets/img/Home/home-1.png) no-repeat; background-size: cover; background-position: right;">
+                                <div style = "border-radius: 20px; padding: 2em">
+                                    <h1 style = "font-size: 25px; color: #fff; font-weight: 800;">Betting</h1>
+                                    <p class = "text-white" style = "width: 60%">Dive into our unique games, live casino action, and captivating slots for a memorable casino adventure.</p>
+                                    <button class = "btn yellow-btn" style = "position: absolute; bottom: 15px; right: 20px; left: 20px;">Play Now</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +129,7 @@
                             </div>
 
                             <div class="col-lg-3 d-flex justify-content-end">
-                                <button class = "yellow-btn">Buy Now</button>
+                                <button class="yellow-btn">Buy Now</button>
                             </div>
                         </div>
                     </div>
@@ -120,13 +141,22 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <h5 class="text-white text-uppercase betting-head">Sports Betting on</h5>
-                                <h1 class = "text-uppercase text-white betting-head">Blockchain</h1>
+                                <h1 class="text-uppercase text-white betting-head">Blockchain</h1>
                                 <h3 class="text-white betting-sub mt-5">Decentralised</h3>
-                                <p style = "color: #707070">A foundational principle for us is trustlessness. This indicates that our platform functions without the need for a central authority or middleman.</p>
+                                <p style="color: #707070">A foundational principle for us is trustlessness. This
+                                    indicates that our platform functions without the need for a central authority or
+                                    middleman.</p>
                                 <h3 class="text-white betting-sub">Permissionless</h3>
-                                <p style = "color: #707070">In the web3 landscape, we wholeheartedly champion the foundational principle of permissionlessness. This ensures that anyone can openly engage with and access our platform without the need for clearance or endorsement from a centralized authority.</p>
+                                <p style="color: #707070">In the web3 landscape, we wholeheartedly champion the
+                                    foundational principle of permissionlessness. This ensures that anyone can openly
+                                    engage with and access our platform without the need for clearance or endorsement
+                                    from a centralized authority.</p>
                                 <h3 class="text-white betting-sub">Non-Custodial</h3>
-                                <p style = "color: #707070">Contrary to conventional betting platforms demanding users to place their funds in centralized accounts, our system leverages decentralized finance (DeFi) mechanisms and smart contracts to facilitate direct peer-to-peer exchanges. We never possess or oversee user assets, diminishing the potential for loss, theft, or mishandling.</p>
+                                <p style="color: #707070">Contrary to conventional betting platforms demanding users to
+                                    place their funds in centralized accounts, our system leverages decentralized
+                                    finance (DeFi) mechanisms and smart contracts to facilitate direct peer-to-peer
+                                    exchanges. We never possess or oversee user assets, diminishing the potential for
+                                    loss, theft, or mishandling.</p>
                             </div>
                             <div class="col-lg-8 d-flex align-items-center justify-content-center">
                                 <img src="./assets/img/Home/betting.png" class="img-fluid" alt="">
@@ -147,19 +177,22 @@
                                         <img src="./img/home/icons/wallet.svg" class="img-fluid faq-img" alt="">
                                     </div>
                                     <div class="d-flex align-items-center w-100">
-                                        <h6 style = "flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1" type="button" data-toggle="collapse"
-                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h6 style="flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1"
+                                            type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
                                             Q: What is BetChain?</h6>
                                         <div>
-                                            <i class = "fa fa-arrow-down" style = "margin-left: -20px;"></i>
+                                            <i class="fa fa-arrow-down" style="margin-left: -20px;"></i>
                                         </div>
-                                            </button>
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
-                                    <p class="mt-2 faq-desc" style = "color: #707070">
-                                        BetChain stands as a decentralized sports betting exchange and casino powered by blockchain technology, allowing players to either engage in casino games or place peer-to-peer wagers on their preferred teams.
+                                    <p class="mt-2 faq-desc" style="color: #707070">
+                                        BetChain stands as a decentralized sports betting exchange and casino powered by
+                                        blockchain technology, allowing players to either engage in casino games or
+                                        place peer-to-peer wagers on their preferred teams.
                                     </p>
                                 </div>
                             </div>
@@ -169,19 +202,28 @@
                                         <img src="./img/home/icons/wallet.svg" class="img-fluid faq-img" alt="">
                                     </div>
                                     <div class="d-flex align-items-center w-100">
-                                        <h6 style = "flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        <h6 style="flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1"
+                                            type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="true" aria-controls="collapseTwo">
                                             Q: What is a Betting Exchange?</h6>
                                         <div>
-                                            <i class = "fa fa-arrow-down" style = "margin-left: -20px;"></i>
+                                            <i class="fa fa-arrow-down" style="margin-left: -20px;"></i>
                                         </div>
-                                            </button>
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordionExample">
-                                    <p class="mt-2 faq-desc" style = "color: #707070">
-                                        A betting exchange serves as a platform where bettors can place bets directly against each other, typically at more competitive fees than those provided by standard sportsbooks. In this setup, two participants decide on the odds and bet amount for a particular game, betting against one another. What sets betting exchanges apart from conventional betting platforms is that they let players set their own odds and wager directly with peers. Rather than just accepting the odds predetermined by bookmakers and only supporting a particular outcome, betting exchanges empower users to compete directly, allowing them to either support or oppose an outcome.
+                                    <p class="mt-2 faq-desc" style="color: #707070">
+                                        A betting exchange serves as a platform where bettors can place bets directly
+                                        against each other, typically at more competitive fees than those provided by
+                                        standard sportsbooks. In this setup, two participants decide on the odds and bet
+                                        amount for a particular game, betting against one another. What sets betting
+                                        exchanges apart from conventional betting platforms is that they let players set
+                                        their own odds and wager directly with peers. Rather than just accepting the
+                                        odds predetermined by bookmakers and only supporting a particular outcome,
+                                        betting exchanges empower users to compete directly, allowing them to either
+                                        support or oppose an outcome.
                                     </p>
                                 </div>
                             </div>
@@ -191,19 +233,25 @@
                                         <img src="./img/home/icons/wallet.svg" class="img-fluid faq-img" alt="">
                                     </div>
                                     <div class="d-flex align-items-center w-100">
-                                        <h6 style = "flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1" type="button" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                        <h6 style="flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1"
+                                            type="button" data-toggle="collapse" data-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseThree">
                                             Q: How does BetChain Works?</h6>
                                         <div>
-                                            <i class = "fa fa-arrow-down" style = "margin-left: -20px;"></i>
+                                            <i class="fa fa-arrow-down" style="margin-left: -20px;"></i>
                                         </div>
-                                            </button>
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordionExample">
-                                    <p class="mt-2 faq-desc" style = "color: #707070">
-                                        BetChain operates on a peer-to-peer model, meaning you're placing bets against other participants and liquidity providers, with the exchange serving as a facilitative marketplace for these wagers. BetChain provides greater adaptability than standard sportsbooks, giving users the autonomy to define their odds. This novel approach empowers bettors to engage in dual roles: either as a wagerer or as a bookmaker.
+                                    <p class="mt-2 faq-desc" style="color: #707070">
+                                        BetChain operates on a peer-to-peer model, meaning you're placing bets against
+                                        other participants and liquidity providers, with the exchange serving as a
+                                        facilitative marketplace for these wagers. BetChain provides greater
+                                        adaptability than standard sportsbooks, giving users the autonomy to define
+                                        their odds. This novel approach empowers bettors to engage in dual roles: either
+                                        as a wagerer or as a bookmaker.
                                     </p>
                                 </div>
                             </div>
@@ -213,19 +261,27 @@
                                         <img src="./img/home/icons/wallet.svg" class="img-fluid faq-img" alt="">
                                     </div>
                                     <div class="d-flex align-items-center w-100">
-                                        <h6 style = "flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1" type="button" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        <h6 style="flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1"
+                                            type="button" data-toggle="collapse" data-target="#collapseFour"
+                                            aria-expanded="true" aria-controls="collapseFour">
                                             Q: What are Ethereum Smart Contract?</h6>
                                         <div>
-                                            <i class = "fa fa-arrow-down" style = "margin-left: -20px;"></i>
+                                            <i class="fa fa-arrow-down" style="margin-left: -20px;"></i>
                                         </div>
-                                            </button>
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordionExample">
-                                    <p class="mt-2 faq-desc" style = "color: #707070">
-                                        Smart contracts on Ethereum are essentially computer-coded agreements stored on the Ethereum blockchain. These contracts autonomously execute based on preset rules and conditions. Think of them as electronic agreements made between two or more entities. They detail the terms relevant to a particular transaction or arrangement. Once these conditions are fulfilled, the contract self-executes, performing the agreed-upon actions. A significant part of the betting procedure on Betswap hinges on these smart contracts. When you choose to log in via web3, rest assured, we never handle or control your funds at any point.
+                                    <p class="mt-2 faq-desc" style="color: #707070">
+                                        Smart contracts on Ethereum are essentially computer-coded agreements stored on
+                                        the Ethereum blockchain. These contracts autonomously execute based on preset
+                                        rules and conditions. Think of them as electronic agreements made between two or
+                                        more entities. They detail the terms relevant to a particular transaction or
+                                        arrangement. Once these conditions are fulfilled, the contract self-executes,
+                                        performing the agreed-upon actions. A significant part of the betting procedure
+                                        on Betswap hinges on these smart contracts. When you choose to log in via web3,
+                                        rest assured, we never handle or control your funds at any point.
                                     </p>
                                 </div>
                             </div>
@@ -235,26 +291,36 @@
                                         <img src="./img/home/icons/wallet.svg" class="img-fluid faq-img" alt="">
                                     </div>
                                     <div class="d-flex align-items-center w-100">
-                                        <h6 style = "flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1" type="button" data-toggle="collapse"
-                                            data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                        <h6 style="flex: 1; font-size: 18px;" class="faq-heading collapsed w-100 mt-1"
+                                            type="button" data-toggle="collapse" data-target="#collapseFive"
+                                            aria-expanded="true" aria-controls="collapseFive">
                                             Q: What is an advantage of using blockchain technology?</h6>
                                         <div>
-                                            <i class = "fa fa-arrow-down" style = "margin-left: -20px;"></i>
+                                            <i class="fa fa-arrow-down" style="margin-left: -20px;"></i>
                                         </div>
-                                            </button>
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordionExample">
-                                    <p class="mt-2 faq-desc" style = "color: #707070">
-                                        Blockchain technology offers numerous benefits when integrated into a betting platform. Firstly, blockchain ensures transparency and unchangeability; this means every transaction is openly accessible to all users and remains tamper-proof. Additionally, betting platforms powered by blockchain can facilitate faster, streamlined transactions. The use of automated smart contracts expedites withdrawals, removing the dependence on manual procedures. Lastly, integrating blockchain bolsters security. By distributing data across a decentralized computer network, the system becomes highly resilient against hacking and data tampering, safeguarding both user transactions and private details.
+                                    <p class="mt-2 faq-desc" style="color: #707070">
+                                        Blockchain technology offers numerous benefits when integrated into a betting
+                                        platform. Firstly, blockchain ensures transparency and unchangeability; this
+                                        means every transaction is openly accessible to all users and remains
+                                        tamper-proof. Additionally, betting platforms powered by blockchain can
+                                        facilitate faster, streamlined transactions. The use of automated smart
+                                        contracts expedites withdrawals, removing the dependence on manual procedures.
+                                        Lastly, integrating blockchain bolsters security. By distributing data across a
+                                        decentralized computer network, the system becomes highly resilient against
+                                        hacking and data tampering, safeguarding both user transactions and private
+                                        details.
                                     </p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div class="text-center">
-                            <button class = "yellow-btn">See More</button>
+                            <button class="yellow-btn">See More</button>
                         </div>
                     </div>
                 </div>
@@ -262,29 +328,35 @@
             <section>
                 <div class="container">
                     <div class="latest">
-                        <h1 class = "text-white mb-3" style = "font-size: 22px; font-weight: 800;">Latest from BSGG</h1>
+                        <h1 class="text-white mb-3" style="font-size: 22px; font-weight: 800;">Latest from BSGG</h1>
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 py-2">
                                 <div class="latest-item">
                                     <img src="./assets/img/Home/latest/coindesk.png" class="img-fluid" alt="">
-                                    <p class = "mt-3" style = "font-size: 15px;">Launches Public Testnet Decentralized Sports Betting…</p>
-                                    <p style = "margin-top: -10px; color: #d3d3d3; font-size: 13px">The Betswap.gg team has announced the testnet launch of its decentralized betting
+                                    <p class="mt-3" style="font-size: 15px;">Launches Public Testnet Decentralized
+                                        Sports Betting…</p>
+                                    <p style="margin-top: -10px; color: #d3d3d3; font-size: 13px">The Betswap.gg team
+                                        has announced the testnet launch of its decentralized betting
                                         exchange on Feb. 2, 2022…</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 py-2">
                                 <div class="latest-item">
                                     <img src="./assets/img/Home/latest/yahoo.png" class="img-fluid" alt="">
-                                    <p class = "mt-3" style = "font-size: 15px;">How Blockchain Betting technology is bringing the power back to…</p>
-                                    <p style = "margin-top: -10px; color: #d3d3d3; font-size: 13px">Sports betting is a standard affair in the world of gaming and sports. But now, with its advent
+                                    <p class="mt-3" style="font-size: 15px;">How Blockchain Betting technology is
+                                        bringing the power back to…</p>
+                                    <p style="margin-top: -10px; color: #d3d3d3; font-size: 13px">Sports betting is a
+                                        standard affair in the world of gaming and sports. But now, with its advent
                                         into the blockchain …</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 py-2">
                                 <div class="latest-item">
                                     <img src="./assets/img/Home/latest/investing.png" class="img-fluid" alt="">
-                                    <p class = "mt-3" style = "font-size: 15px;">The First Decentralized Betting Exchange</p>
-                                    <p style = "margin-top: -10px; color: #d3d3d3; font-size: 13px">The world of online betting has had a controversial history with several attempts being made
+                                    <p class="mt-3" style="font-size: 15px;">The First Decentralized Betting Exchange
+                                    </p>
+                                    <p style="margin-top: -10px; color: #d3d3d3; font-size: 13px">The world of online
+                                        betting has had a controversial history with several attempts being made
                                         in the …</p>
                                 </div>
                             </div>
@@ -295,17 +367,15 @@
             <section id="payments">
                 <div class="container">
                     <div class="px-4 py- gradient-box">
-                        <div class="row d-flex justify-content-between p-3"
-                            style="border-radius: 15px">
+                        <div class="row d-flex justify-content-between p-3" style="border-radius: 15px">
                             <div class="col-lg-4 d-flex align-items-center">
                                 <h5 class="text-white">Our Investors</h5>
                             </div>
 
                             <div class="col-lg-5 d-flex align-items-center justify-content-end">
                                 <div class="d-flex align-items-center h-100 justify-content-center">
-                                    <img src="./assets/img/Home/Investors/1.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Investors/2.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Investors/3.png" class="mx-2" alt="">
+                                    <img src="./assets/img/Home/Investors/1.png" class="img-fluid mx-1" alt="">
+                                    <img src="./assets/img/Home/Investors/3.png" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -313,28 +383,35 @@
                 </div>
             </section>
             <section>
-                <div class = "container">
-                    <div class = "contact-us">
-                        <div class = "row">
-                            <div class = "col-lg-6">
-                                <h1 class = "text-white" style = "font-size: 22px; font-weight: 800;">BSG Online Casino</h1>
-                                <p style = "color: #fff; font-size: 13px;">Active members of our community participate in regular customer focus and research groups to define the look and feel of
-                                    our products and features. They help decide which new games and tournaments we introduce and which rewards and
+                <div class="container">
+                    <div class="contact-us">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1 class="text-white" style="font-size: 22px; font-weight: 800;">BSG Online Casino</h1>
+                                <p style="color: #fff; font-size: 13px;">Active members of our community participate in
+                                    regular customer focus and research groups to define the look and feel of
+                                    our products and features. They help decide which new games and tournaments we
+                                    introduce and which rewards and
                                     promotions we offer.</p>
-                                <p style = "color: #fff; font-size: 13px;">Developing the best and most widely used decentralized Sports Trading Exchange & Casino platform wouldn't be possible
+                                <p style="color: #fff; font-size: 13px;">Developing the best and most widely used
+                                    decentralized Sports Trading Exchange & Casino platform wouldn't be possible
                                     without our community.</p>
                             </div>
-                            <div class = "col-lg-6">
-                                <h1 class = "text-white" style = "font-size: 22px; font-weight: 800;">Help Us Improve</h1>
-                                <textarea style = "height: 150px;width: 100%;background: #1C1E22; border: unset;"></textarea>
-                                <div class = "d-flex">
-                                    <button class = "yellow-btn" style = "padding: 0.1em 1em; margin-top: 5px;font-size: 15px; height: 30px">Submit</button>
-                                    <div class = "p-1">
-                                        <p style = "color: #707070; margin-bottom: 0; font-size: 10px;">Now get rewarded for your valuable feedback</p>
-                                        <p style = "color: #707070; font-size: 10px;">Or Email us: <span style = "color: #F8C237">support@betswap.gg</span></p>
+                            <div class="col-lg-6">
+                                <h1 class="text-white" style="font-size: 22px; font-weight: 800;">Help Us Improve</h1>
+                                <textarea
+                                    style="height: 150px;width: 100%;background: #1C1E22; border: unset;"></textarea>
+                                <div class="d-flex">
+                                    <button class="yellow-btn"
+                                        style="padding: 0.1em 1em; margin-top: 5px;font-size: 15px; height: 30px">Submit</button>
+                                    <div class="p-1">
+                                        <p style="color: #707070; margin-bottom: 0; font-size: 10px;">Now get rewarded
+                                            for your valuable feedback</p>
+                                        <p style="color: #707070; font-size: 10px;">Or Email us: <span
+                                                style="color: #F8C237">support@betswap.gg</span></p>
                                     </div>
                                 </div>
-                                <button class = "btn btn-success btn-block">Contact Us</button>
+                                <button class="btn btn-success btn-block">Contact Us</button>
                             </div>
                         </div>
                     </div>
@@ -343,109 +420,112 @@
             <section id="payments">
                 <div class="container">
                     <div class="px-4 py-2 payments">
-                        <div class="row d-flex p-3"
-                            style="background: #1c1e22; border-radius: 15px;">
+                        <div class="row d-flex p-3" style="background: #1c1e22; border-radius: 15px;">
                             <div class="col-lg-3 d-flex align-items-center">
                                 <h5 class="text-white">Our Community</h5>
                             </div>
 
-                            <div style = "flex: 1" class="col-lg-9">
-                                    <img src="./assets/img/Home/community.png" class="w-100 mx-2" alt="">
-                                </div>
+                            <div style="flex: 1" class="col-lg-9">
+                                <img src="./assets/img/Home/community.png" class="w-100 mx-2" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="payments">
-                <div class="container">
-                    <div class="px-4 py-2 payments">
-                        <div class="row d-flex p-3"
-                            style="background: #1c1e22; border-radius: 15px; border: 1px solid yellow">
-                            <div style = "flex: 1" class="col-lg-4 d-flex align-items-center">
-                                <h5 class="text-white">No Crypto? No Problem</h5>
-                            </div>
-
-                            <div style = "flex: 1" class="col-lg-5 w-100 d-flex justify-content-between align-items-center">
-                                <div class="d-flex align-items-center h-100 justify-content-between">
-                                    <img src="./assets/img/Home/Payments/visa.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Payments/mastercard.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Payments/g-pay.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Payments/apple-pay.png" class="mx-2" alt="">
-                                    <img src="./assets/img/Home/Payments/samsung-pay.png" class="mx-2" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
-        <!-- /.content-wrapper -->
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <div class="p-3">
-                <h5>Title</h5>
-                <p>Sidebar content</p>
-            </div>
-        </aside>
-
-        
-  <footer>
-    <div class="container">
-        <div class="footer-wrapper">
-            <div class="row">
-                <div class="col-lg-5">
-                    <img src="./assets/img/logo.png" class="img-fluid" alt="">
-                    <div class="footer-desc pt-3">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi dolores culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi? Reprehenderit fuga labore consequuntur libero deleniti qui facere sunt!
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi dolores culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi? Reprehenderit fuga labore consequuntur libero deleniti qui facere sunt!
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5 class="footer-list-head">Links</h5>
-
-                            <ul class="footer-list">
-                                <li><a href="/">Home</a></li>
-                                <li><a href='/download'>Downloads</a></li>
-                                <li><a href='/referral'>Referrals</a></li>
-                                <li><a href='/fees'>Fees</a></li>
-                            </ul>
+        </section>
+        <section id="payments">
+            <div class="container">
+                <div class="px-4 py-2 payments">
+                    <div class="row d-flex p-3"
+                        style="background: #1c1e22; border-radius: 15px; border: 1px solid yellow">
+                        <div style="flex: 1" class="col-lg-4 d-flex align-items-center">
+                            <h5 class="text-white">No Crypto? No Problem</h5>
                         </div>
-                        <div class="col-lg-4">
-                            <h5 class="footer-list-head">Company</h5>
 
-                            <ul class="footer-list">
-                                <li><a href='/terms'>Terms Of Services</a></li>
-                                <li><a href='/privacy'>Privacy & Policies</a></li>
-                                <li><a href='/kyc'>KML & KYC Policy</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-4">
-                            <h5 class="footer-list-head">Learn & Support</h5>
-
-                            <ul class="footer-list">
-                                <li><a href="#">Telegram Channel</a></li>
-                                <li><a href="#">Medium - Blogs</a></li>
-                                <li><a href="#">FAQ’s & Support</a></li>
-                                <li><a href="#">Tutorials ( Comming Soon )</a></li>
-                            </ul>
+                        <div style="flex: 1" class="col-lg-5 w-100 d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center h-100 justify-content-between">
+                                <img src="./assets/img/Home/Payments/visa.png" class="mx-2" alt="">
+                                <img src="./assets/img/Home/Payments/mastercard.png" class="mx-2" alt="">
+                                <img src="./assets/img/Home/Payments/g-pay.png" class="mx-2" alt="">
+                                <img src="./assets/img/Home/Payments/apple-pay.png" class="mx-2" alt="">
+                                <img src="./assets/img/Home/Payments/samsung-pay.png" class="mx-2" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
-    <div class="footer-bottom">
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <div class="p-3">
+            <h5>Title</h5>
+            <p>Sidebar content</p>
+        </div>
+    </aside>
+
+
+    <footer>
         <div class="container">
-            <div>
-                <p class="my-auto">© 2020-2022 All Rights Reserved. BetChain Pvt Ltd.</p>
+            <div class="footer-wrapper">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="./assets/img/logo.png" class="img-fluid" alt="">
+                        <div class="footer-desc pt-3">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi dolores
+                                culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi? Reprehenderit
+                                fuga labore consequuntur libero deleniti qui facere sunt!
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi dolores
+                                culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi? Reprehenderit
+                                fuga labore consequuntur libero deleniti qui facere sunt!
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5 class="footer-list-head">Links</h5>
+
+                                <ul class="footer-list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href='/download'>Downloads</a></li>
+                                    <li><a href='/referral'>Referrals</a></li>
+                                    <li><a href='/fees'>Fees</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <h5 class="footer-list-head">Company</h5>
+
+                                <ul class="footer-list">
+                                    <li><a href='/terms'>Terms Of Services</a></li>
+                                    <li><a href='/privacy'>Privacy & Policies</a></li>
+                                    <li><a href='/kyc'>KML & KYC Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <h5 class="footer-list-head">Learn & Support</h5>
+
+                                <ul class="footer-list">
+                                    <li><a href="#">Telegram Channel</a></li>
+                                    <li><a href="#">Medium - Blogs</a></li>
+                                    <li><a href="#">FAQ’s & Support</a></li>
+                                    <li><a href="#">Tutorials ( Comming Soon )</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+        <div class="footer-bottom">
+            <div class="container">
+                <div>
+                    <p class="my-auto">© 2020-2022 All Rights Reserved. BetChain Pvt Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
 
     <!-- jQuery -->
@@ -454,6 +534,39 @@
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <script>
+          $('.carosel').owlCarousel({
+          loop: true,
+          margin: 30,
+          nav: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          navText: ['<i class="ion-ios-arrow-back"></i>', '<i class="ion-ios-arrow-forward"></i>'],
+          responsive: {
+              0: {
+                  items: 1,
+  
+              },
+              380: {
+                  items: 2,
+                  margin: 15,
+              },
+              600: {
+                  items: 3
+              },
+              1000: {
+                  items: 4,
+          margin: 10
+              },
+              1199: {
+                  items: 4,
+          margin: 10
+              }
+          }
+      });
+    </script>
 </body>
 
 </html>
