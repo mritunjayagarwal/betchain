@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+@font-face {
+	font-family: 'Race';
+	src: url(../RaceSport-nR1j0.ttf);
 }
 
 body{
@@ -17,7 +24,7 @@ section{
 }
 
 .container{
-	max-width: 80%;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -63,8 +70,18 @@ section{
 
 .betting{
 	background: #15191c;
-	padding: 1em;
+	padding: 2em;
 	border-radius: 20px;
+}
+
+.betting-head{
+	font-family: 'Race', 'sans-serif';
+}
+
+.betting-sub{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
 }
 
 /* FAQ */
@@ -155,3 +172,10 @@ footer {
     padding: 10px 0;
     color: rgba(255, 255, 255, 0.83);
 }
+
+@media only screen and (max-width: 900px) {
+	.container{
+	 max-width: 98%;
+	}
+   }
+ 
