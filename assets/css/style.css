@@ -174,9 +174,17 @@ footer {
     color: rgba(255, 255, 255, 0.83);
 }
 
+.control-sidebar{
+	display: none !important;
+}
+
 @media only screen and (max-width: 900px) {
 	.container{
 	 max-width: 98%;
+	}
+
+	.control-sidebar{
+		display: none !important;
 	}
    }
  
