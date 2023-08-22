@@ -21,10 +21,20 @@ section{
 	margin: 0 auto;
 }
 
+.yellow-btn{
+	color: #000;
+	padding: 0.5em 1em;
+	background: #F8C237;
+	border: unset;
+	outline: unset;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
 /* Gradient Section */
 
 .gradient-box{
-	background: linear-gradient(-45deg, #005ea1, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #4300a1, #e73c7e, #cf23d5, #2623d5);
 	background-size: 400% 400%;
     border-radius: 20px;
 	animation: gradient 15s ease infinite;
@@ -88,6 +98,14 @@ section{
 .latest-item{
 	background: #1C1E22;
 	color: #fff;
+	padding: 1em;
+	border-radius: 20px;
+}
+
+/* contact us */
+
+.contact-us{
+	background: #15191c;
 	padding: 1em;
 	border-radius: 20px;
 }
