@@ -49,9 +49,9 @@
                 <!-- Right navbar links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item d-none d-sm-inline-block">
-                        <a href="casino.html" class="nav-link yellow-btn" style = "color: #000;">Launch Casino</a>
+                        <a href="casino.html" class="nav-link yellow-btn" style="color: #000;">Launch Casino</a>
                     </li>
-            </ul>
+                </ul>
             </div>
         </nav>
 
@@ -95,10 +95,10 @@
                                     <p class="text-white" style="width: 60%">Enhance your sports betting journey by
                                         placing wagers on your favorite sports using cryptocurrency through our robust
                                         platform.</p>
-                                    <a href="casino.html" style = "color: #000">
-                                    <button class="btn yellow-btn"
-                                        style="position: absolute; bottom: 15px; right: 20px; left: 20px;">Play
-                                        Now</button>
+                                    <a href="casino.html" style="color: #000">
+                                        <button class="btn yellow-btn"
+                                            style="position: absolute; bottom: 15px; right: 20px; left: 20px;">Play
+                                            Now</button>
                                     </a>
                                 </div>
                             </div>
@@ -110,10 +110,10 @@
                                     <h1 style="font-size: 25px; color: #fff; font-weight: 800;">Casino</h1>
                                     <p class="text-white" style="width: 60%">Dive into our unique games, live casino
                                         action, and captivating slots for a memorable casino adventure.</p>
-                                    <a href="casino.html" style = "color: #000">
-                                    <button class="btn yellow-btn"
-                                        style="position: absolute; bottom: 15px; right: 20px; left: 20px;">Play
-                                        Now</button>
+                                    <a href="casino.html" style="color: #000">
+                                        <button class="btn yellow-btn"
+                                            style="position: absolute; bottom: 15px; right: 20px; left: 20px;">Play
+                                            Now</button>
                                     </a>
                                 </div>
                             </div>
@@ -132,11 +132,16 @@
 
                             <div class="col-lg-8 d-flex align-items-center justify-content-end">
                                 <div class="d-flex align-items-center h-100 justify-content-center mt-1">
-                                    <img src="./assets/img/Home/Payments/1.png" class="img-fluid mx-2 crypto-exchanges" alt="">
-                                    <img src="./assets/img/Home/Payments/2.png" class="img-fluid mx-2 crypto-exchanges" alt="">
-                                    <img src="./assets/img/Home/Payments/3.png" class="img-fluid mx-2 crypto-exchanges" alt="">
-                                    <img src="./assets/img/Home/Payments/4.png" class="img-fluid mx-2 crypto-exchanges" alt="">
-                                    <img src="./assets/img/Home/Payments/5.png" class="img-fluid mx-2 crypto-exchanges" alt="">
+                                    <img src="./assets/img/Home/Payments/1.png" class="img-fluid mx-2 crypto-exchanges"
+                                        alt="">
+                                    <img src="./assets/img/Home/Payments/2.png" class="img-fluid mx-2 crypto-exchanges"
+                                        alt="">
+                                    <img src="./assets/img/Home/Payments/3.png" class="img-fluid mx-2 crypto-exchanges"
+                                        alt="">
+                                    <img src="./assets/img/Home/Payments/4.png" class="img-fluid mx-2 crypto-exchanges"
+                                        alt="">
+                                    <img src="./assets/img/Home/Payments/5.png" class="img-fluid mx-2 crypto-exchanges"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
@@ -403,16 +408,10 @@
                         <div class="col-lg-5">
                             <img src="./assets/img/logo.png" class="img-fluid" alt="">
                             <div class="footer-desc pt-3">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi
-                                    dolores
-                                    culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi?
-                                    Reprehenderit
-                                    fuga labore consequuntur libero deleniti qui facere sunt!
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, incidunt nisi
-                                    dolores
-                                    culpa obcaecati, voluptas laborum, blanditiis unde sed assumenda animi?
-                                    Reprehenderit
-                                    fuga labore consequuntur libero deleniti qui facere sunt!
+                                <p>Betchain is a cutting-edge gaming and betting platform built on a Layer 2 (L2)
+                                    EVM-compatible blockchain. It aims to provide users with a comprehensive ecosystem
+                                    where they can engage in exciting games, place bets, and even deploy their own games
+                                    using pre-made gaming and blockchain smart contracts.</p>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -459,6 +458,23 @@
                 </div>
             </div>
         </footer>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body bg-dark">
+                        <div class="card bg-dark">
+                            <div class = "text-center">
+                                <img src="./assets/img/Home/casino.webp"
+                                class="card-img-top w-50">
+                            </div>
+                            <div class="card-body">
+                                <button class = "yellow-btn btn-block">Launch Casino</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery -->
@@ -499,6 +515,9 @@
                 }
             }
         });
+        setTimeout(function () {
+            $('#myModal').modal();
+        }, 5000);
     </script>
 </body>
 
