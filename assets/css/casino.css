@@ -10,6 +10,13 @@ body{
     overflow-y: auto;
 }
 
+
+.wrapper{
+	max-width: 100vw !important;
+	overflow-x: hidden !important;
+	overflow-y: auto;
+}
+
 .logo-middle{
     display: none !important;
 }
